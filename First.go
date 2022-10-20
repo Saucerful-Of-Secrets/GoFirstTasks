@@ -17,8 +17,8 @@ func main() {
 	fmt.Print("Input a sale: ")
 	fmt.Scan(&sale)
 
-	sum := (price + delivery - sale)
+	Total := (price + delivery - sale)
 
-	fmt.Println(sum)
+	fmt.Println("Total:", Total)
 
 }
