@@ -6,7 +6,7 @@ import (
 
 func main() {
 
-	var price, delivery, sale int
+	var price, delivery, sale uint64
 
 	fmt.Print("Input a price: ")
 	fmt.Scan(&price)
